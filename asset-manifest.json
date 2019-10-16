@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/the-foodplace/static/css/main.b100e6da.chunk.css",
-    "main.js": "/the-foodplace/static/js/main.378dc4ba.chunk.js",
-    "main.js.map": "/the-foodplace/static/js/main.378dc4ba.chunk.js.map",
+    "main.js": "/the-foodplace/static/js/main.4516ac0e.chunk.js",
+    "main.js.map": "/the-foodplace/static/js/main.4516ac0e.chunk.js.map",
     "runtime-main.js": "/the-foodplace/static/js/runtime-main.d9646abc.js",
     "runtime-main.js.map": "/the-foodplace/static/js/runtime-main.d9646abc.js.map",
     "static/js/2.f5a2183d.chunk.js": "/the-foodplace/static/js/2.f5a2183d.chunk.js",
     "static/js/2.f5a2183d.chunk.js.map": "/the-foodplace/static/js/2.f5a2183d.chunk.js.map",
     "index.html": "/the-foodplace/index.html",
-    "precache-manifest.2f29cfcfd709f6befc0a2a5a596c9aa9.js": "/the-foodplace/precache-manifest.2f29cfcfd709f6befc0a2a5a596c9aa9.js",
+    "precache-manifest.64d2ec7b46e013e0a6c6fae384a14ad5.js": "/the-foodplace/precache-manifest.64d2ec7b46e013e0a6c6fae384a14ad5.js",
     "service-worker.js": "/the-foodplace/service-worker.js",
     "static/css/main.b100e6da.chunk.css.map": "/the-foodplace/static/css/main.b100e6da.chunk.css.map",
     "static/media/logo.svg": "/the-foodplace/static/media/logo.25bf045c.svg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d9646abc.js",
     "static/js/2.f5a2183d.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.378dc4ba.chunk.js"
+    "static/js/main.4516ac0e.chunk.js"
   ]
 }
