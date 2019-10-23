@@ -1,0 +1,63 @@
+p {
+    font-size: 1.1rem;
+}
+
+.Welcome {
+    font-size: 2rem;
+}
+
+.Diet-options-title {
+    font-size: 1.5rem;
+}
+
+.About-text {
+    /* color: #CDACA1; */
+    color: #101935;
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: left;
+    }
+}
+
+.Restaurant-image,
+.Menu-times-image {
+    width: 100%;
+    height: auto;
+}
+
+.Menu-text {
+    color: #101935;
+    text-align: center;
+    border: double #101935;
+}
+
+.Menu-table {
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    padding-bottom: 5%;
+}
+
+.Diet-options {
+    background-color: #000;
+    /*background-color: #93562F;*/
+    color: #fff;
+}
+
+#button-div .view-menu-btn {
+    background-color: #FFF;
+    border: 1px solid #000;
+    border-radius: 10px;
+    color: #000;
+}
+
+#button-div .view-menu-btn:hover {
+    background-color: #EABE7C;
+    color: #fff;
+    border: 1px solid #EABE7C;
+    /* padding-right: 40px; */
+}
