@@ -1,0 +1,50 @@
+p {
+    font-size: 1.1rem;
+}
+
+.Footer {
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+}
+
+.footer-logo {
+    font-family: 'Dr Sugiyama', cursive;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 0;
+}
+
+.footer-icon {
+    margin-right: 10px;
+}
+
+a:link .footer-icon,
+a:visited .footer-icon {
+    color: #fff;
+}
+
+a:hover .footer-icon,
+a:active .footer-icon {
+    color: #EABE7C;
+    text-decoration: none;
+}
+
+.footer-link {
+    border-bottom: 1px solid #fff;
+}
+
+.footer-link a:link,
+.footer-link a:visited {
+    color: #fff;
+}
+
+.footer-link a:hover,
+.footer-link a:active {
+    color: #EABE7C;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+}
