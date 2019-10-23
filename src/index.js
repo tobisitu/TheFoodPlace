@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker'
 
 
 ReactDOM.render( 
-    <Router basename={process.env.PUBLIC_URL}>>
+    <Router basename={process.env.PUBLIC_URL}>
         <div>
             <Route exact path="/" component = {App}/>
             <Route exact path="/menu" component = {Menu}/>
