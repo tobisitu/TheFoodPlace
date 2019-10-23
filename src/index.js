@@ -5,19 +5,20 @@ import App from './App';
 import Menu from './components/menu';
 import About from './components/about';
 import Contact from './components/contact';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+// import { BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter, Route} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker'
 
 
 ReactDOM.render( 
-    <Router basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename ="/the-foodplace">
         <div>
             <Route exact path="/" component = {App}/>
             <Route exact path="/menu" component = {Menu}/>
             <Route exact path="/about" component = {About}/>
             <Route exact path="/contact" component = {Contact}/>
         </div>
-    </Router>
+    </BrowserRouter>
 , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
