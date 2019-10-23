@@ -3,6 +3,7 @@ import styles from '../styles/navigation.css';
 import { Link } from 'react-router-dom';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import Navigation from './navigation';
+import Footer from './footer';
 
 
 function About() {
@@ -10,6 +11,7 @@ function About() {
     <div className="App">
         <Navigation />
       <p>About page</p>
+        <Footer />
     </div>
   );
 }
