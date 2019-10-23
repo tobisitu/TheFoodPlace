@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b91e2451f127843e54d7ad5bbe322fc3",
+    "revision": "766938a615a0e11abe577db884706e5b",
     "url": "/the-foodplace/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-foodplace/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "ae7da8ea34f26b6b3e71",
+    "revision": "c4ba18f6dab0336e61d8",
     "url": "/the-foodplace/static/css/main.45492f93.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-foodplace/static/js/2.a42cd543.chunk.js"
   },
   {
-    "revision": "ae7da8ea34f26b6b3e71",
-    "url": "/the-foodplace/static/js/main.deac7d22.chunk.js"
+    "revision": "c4ba18f6dab0336e61d8",
+    "url": "/the-foodplace/static/js/main.2864b408.chunk.js"
   },
   {
     "revision": "65615dfc143bc007e3a3",
