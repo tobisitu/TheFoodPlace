@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7e19e4f907116dca7538640a8d82e51",
+    "revision": "e895464bcd7ebf549bebc966a35dba5d",
     "url": "/the-foodplace/index.html"
   },
   {
-    "revision": "1d7da12afd40c57e236c",
+    "revision": "04534ec5e3c13115ac75",
     "url": "/the-foodplace/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "e21de3792b4303934902",
-    "url": "/the-foodplace/static/css/main.45492f93.chunk.css"
+    "revision": "984cdb2d91bcf518d567",
+    "url": "/the-foodplace/static/css/main.8be64088.chunk.css"
   },
   {
-    "revision": "1d7da12afd40c57e236c",
-    "url": "/the-foodplace/static/js/2.a42cd543.chunk.js"
+    "revision": "04534ec5e3c13115ac75",
+    "url": "/the-foodplace/static/js/2.5159bd97.chunk.js"
   },
   {
-    "revision": "e21de3792b4303934902",
-    "url": "/the-foodplace/static/js/main.815d3386.chunk.js"
+    "revision": "984cdb2d91bcf518d567",
+    "url": "/the-foodplace/static/js/main.79df4bb3.chunk.js"
   },
   {
     "revision": "65615dfc143bc007e3a3",
