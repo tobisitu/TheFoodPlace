@@ -1,9 +1,14 @@
 import React from 'react';
 import styles from '../styles/menu.css';
+import Navigation from './navigation';
 
 function Menu() {
   return (
-    <p>Menu page</p>
+    <div className="App">
+      <Navigation />
+      <p>Menu page</p>
+    </div>
+    
   );
 }
 

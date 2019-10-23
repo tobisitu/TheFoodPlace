@@ -8,9 +8,10 @@ import Navigation from './components/navigation';
 function App() {
   return (
     <div className="App">
+      <Navigation />
       <header className="App-header">
-        <h1 className="Masthead-text">The FoodPlace</h1>
-        <Navigation />
+        <h1 className="Masthead-text">the FoodPlace</h1>
+        
       </header>
       <Homepage />
       <Footer />
