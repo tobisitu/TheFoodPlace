@@ -9,7 +9,7 @@ function Footer() {
       <div className="Footer-container container pt-5">
         <div className="row">
             <div className="col-md-6">
-                <h2 className="footer-logo pb-3">The FoodPlace</h2>
+                <h2 className="footer-logo pb-3">the FoodPlace</h2>
                 <p><a href="mailto:info@thefoodplace.ca"><Icon className="footer-icon"> mail_icon </Icon> </a>info@thefoodplace.ca</p>
                 <p><Icon className="footer-icon"> phone_icon </Icon>+1 613-467-1328</p>
                 <p><Icon className="footer-icon"> room_icon </Icon>248 Food Street, React, Canada</p>

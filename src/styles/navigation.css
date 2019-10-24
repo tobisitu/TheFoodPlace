@@ -2,24 +2,28 @@
 .navbar-brand a:visited {
     color: #000;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .navbar-brand a:hover,
 .navbar-brand a:active {
     color: #EABE7C;
     text-decoration: none;
+    font-weight: 900;
 }
 
 .nav-link a:link,
 .nav-link a:visited {
     color: #000;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .nav-link a:hover,
 .nav-link a:active {
     color: #EABE7C;
     text-decoration: none;
+    font-weight: 900;
 }
 
 .navbar .nav-link a {

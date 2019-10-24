@@ -1,6 +1,9 @@
 .page-title {
-    background-color: #000;
-    padding: 1rem;
+    /*background-color: #000;*/
+    background-image: url("../images/dishes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
     color: #fff;
     font-weight: 900;
 }
