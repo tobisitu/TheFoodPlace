@@ -1,0 +1,85 @@
+.page-title {
+    background-color: #000;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+.menu-navigation ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-navigation ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-navigation ul a li {
+    text-align: center;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    border: 1px solid #000;
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+.menu-navigation ul a li:link,
+.menu-navigation ul a li:visited {
+    background-color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu-navigation ul a li:hover,
+.menu-navigation ul a li:active {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.restrictions-key {
+    padding: 0 3rem;
+    border: 2px solid #EABE7C;
+}
+
+.restriction-active {
+    background-color: #EABE7C;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.restriction-inactive {
+    background-color: rgba(73, 72, 70, 0.931);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.menu-section-title {
+    text-align: left;
+    font-weight: 400;
+    border-bottom: 2px solid #EABE7C;
+}
+
+.card-overlay {
+    font-size: 3rem;
+}
+
+.drink-name p {
+    text-align: left;
+}
+
+.drink-item p {
+    margin-bottom: 0.1rem;
+}
+
+.drink-price {
+    text-align: right;
+    border-bottom: 1px dotted #000;
+}

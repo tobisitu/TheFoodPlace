@@ -43,21 +43,25 @@ td {
 }
 
 .Diet-options {
-    background-color: #000;
-    /*background-color: #93562F;*/
+    /*background-image: url("../images/wood.jpg");*/
+    background-image: url("../images/dishes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
+    /*color: #000;*/
+}
+
+#button-div a {
+    text-decoration: none;
 }
 
 #button-div .view-menu-btn {
     background-color: #FFF;
     border: 1px solid #000;
-    border-radius: 10px;
     color: #000;
 }
 
 #button-div .view-menu-btn:hover {
-    background-color: #EABE7C;
+    background-color: #000;
     color: #fff;
-    border: 1px solid #EABE7C;
-    /* padding-right: 40px; */
 }

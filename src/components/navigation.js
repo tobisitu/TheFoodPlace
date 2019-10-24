@@ -12,16 +12,10 @@ function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link><Link to='/'>Home</Link></Nav.Link>
-            <NavDropdown title="Menu" id="collasible-nav-dropdown"> 
-              <NavDropdown.Item href="#action/3.1">Lunch</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Cocktails and Wine</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Dinner</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Search by Category</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link><Link to='/about'>About</Link></Nav.Link>
-            <Nav.Link><Link to='/contact'>Contact</Link></Nav.Link>
+            <Nav.Link><Link to='/'>HOME</Link></Nav.Link>
+            <Nav.Link><Link to='/menu'>MENU</Link></Nav.Link>
+            <Nav.Link><Link to='/about'>ABOUT</Link></Nav.Link>
+            <Nav.Link><Link to='/contact'>CONTACT</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -2,8 +2,10 @@ import React from 'react';
 import styles from '../styles/homepage.css';
 import restaurant1 from '../images/restaurant1.jpg';
 import food1 from '../images/food1.jpg';
+import wood from '../images/wood.jpg';
 import Icon from '@material-ui/core/Icon';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 function Homepage() {
   return (
@@ -25,8 +27,8 @@ function Homepage() {
 
 
 
-      <div className="Diet-options row mt-5"> 
-        <div className = "container pt-5 pb-4">
+      <div className="Diet-options row mt-5 pt-4 pb-3"> 
+        <div className = "container pt-5 pb-5">
           <h3 className = "Diet-options-title">Dietary Restriction Options Available</h3>
          <div className="row pt-5 pb-3">
           <div className="col-md-2">
@@ -81,9 +83,11 @@ function Homepage() {
               </table>
             </div>
             <div className="pt-3 pb-5" id= "button-div">
-              <Button variant="outline-dark" size="lg" block className="view-menu-btn" a href="#home">
-                View Menu
+            <Link to="/menu">
+              <Button variant="outline-dark" size="lg" block className="view-menu-btn" > 
+                Menu
               </Button>
+            </Link>
             </div>
             
           </section>
