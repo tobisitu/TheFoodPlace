@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/navigation.css';
-import { Link } from 'react-router-dom';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import { HashLink as Link} from 'react-router-hash-link';
 
 
 function Navigation() {
@@ -15,7 +15,15 @@ function Navigation() {
             <Nav.Link><Link to='/'>HOME</Link></Nav.Link>
             <Nav.Link><Link to='/menu'>MENU</Link></Nav.Link>
             <Nav.Link><Link to='/about'>ABOUT</Link></Nav.Link>
-            <Nav.Link><Link to='/contact'>CONTACT</Link></Nav.Link>
+            {/* <Nav.Link><Link to='/contact'>CONTACT</Link></Nav.Link> */}
+          </Nav>
+          <Nav>
+            <Nav.Link className="nav-reservation">
+              <Link to="/#reservation"scroll={el => el.scrollIntoView({ behavior: 'instant', block: 'end' })}>
+                MAKE A RESERVATION
+              </Link>
+            </Nav.Link>
+            {/* <Nav.Link className="nav-reservation">MAKE A RESERVATION</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

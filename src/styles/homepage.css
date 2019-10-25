@@ -4,6 +4,7 @@ p {
 
 .Welcome {
     font-size: 2rem;
+    /*text-align: left*/
 }
 
 .Diet-options-title {
@@ -16,9 +17,21 @@ p {
     h2 {
         text-align: center;
     }
-    p {
-        text-align: left;
-    }
+}
+
+.About-text p {
+    /* text-align: left;*/
+}
+
+.About-text a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.About-text a:hover,
+.About-text a:active {
+    color: rgb(105, 85, 54);
+    text-decoration: underline;
 }
 
 .Restaurant-image,

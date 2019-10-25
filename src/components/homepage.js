@@ -5,6 +5,7 @@ import food1 from '../images/food1.jpg';
 import wood from '../images/wood.jpg';
 import Icon from '@material-ui/core/Icon';
 import Button from 'react-bootstrap/Button';
+import Reservation from './reservation';
 import { Link } from 'react-router-dom';
 
 function Homepage() {
@@ -12,13 +13,25 @@ function Homepage() {
     <div className="Homepage">
       <div className = "container pb-5">
         <div className="About row mt-5 ">
-          <section className="About-text col-lg-6 mt-5">
-            <h2 className="mb-5 Welcome">Welcome</h2>
-            <p>The FoodPlace was founded in 2015 by two Nigerian Canadian sisters - <em>Funmi Osubare and Lore Osubare. </em><br /> <br />
-            The pair have always enjoyed cooking and this restaurant was birthed as a solution to a lot of problems they and others seemed to experience 
-            as food lovers with quite a few significant dietary restrictions. <br /><br />
-            The Osubare sisters believe that everyone deserves to eat good, tasty food and feel good during and after a meal!  </p>
-          </section>
+          <div className="col-lg-6">
+            <div className="row">
+              <section className="About-text col-12 mt-5">
+                <h2 className="mb-5 Welcome">Welcome</h2>
+                <p>Come experience Contemporary Afro-Canadian cuisine with an emphasis on local farms and suppliers. 
+                 <br /> Our diverse menu offerings include sharing platters which can accommodate large groups and also
+                  items which are great for pairing with a glass of wine at the bar. <em><Link to="/about"> Read more...</Link></em>
+                </p>
+                 
+              </section> 
+            </div>
+            <div className="row">
+              <section className="About-text col-12 mt-5" id="reservation">
+                <Reservation />
+              </section>
+                
+            </div>
+          </div>
+
           <section className="col-lg-6 mt-5 About-img">
           <img src={restaurant1} className="Restaurant-image" alt="Restaurant seating arrangement" />
           </section>
@@ -44,7 +57,7 @@ function Homepage() {
           <Icon> restaurant_icon </Icon>
           </div>
           <div className="col-md-2">
-           <p>Vegeterian</p>
+           <p>Vegetarian</p>
           </div>
           <div className="col-md-1">
           <Icon> restaurant_icon </Icon>

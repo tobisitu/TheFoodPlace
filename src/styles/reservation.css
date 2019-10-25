@@ -1,0 +1,63 @@
+    .reservation-btn {
+        padding: 0.7rem;
+        font-size: 1.1rem;
+        /*border: 1px solid #EABE7C;*/
+        border: 1px solid #000;
+        margin: 0.5rem;
+        text-decoration: none;
+        background-color: #000;
+        color: #fff;
+    }
+    
+    .reservation-btn:hover {
+        /* background-color: #000;*/
+        background-color: #EABE7C;
+        border: 1px solid #EABE7C;
+        color: #fff;
+        /* font-weight: 700; */
+        text-decoration: none;
+    }
+    
+    .reservation-form {
+        border: 3px double #EABE7C;
+        padding: 2.5rem;
+    }
+    
+    .reservation-form h3 {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+        border-bottom: 1px solid #EABE7C;
+    }
+    
+    Form {
+        text-align: left;
+    }
+    
+    Form .btn-primary {
+        background-color: black;
+        color: #fff;
+        /* padding: 0.7rem; */
+        text-align: center;
+        /* margin: 0 5rem; */
+        border-color: #000;
+    }
+    
+    Form .btn-primary:hover {
+        background-color: #EABE7C;
+        color: #fff;
+        /* padding: 0.7rem; */
+        text-align: center;
+        /* margin: 0 5rem; */
+        border-color: #EABE7C;
+    }
+    
+    .attention {
+        text-align: center;
+    }
+    
+    .success {
+        font-weight: 700;
+        color: darkolivegreen;
+        padding: 2rem;
+        font-size: 1.1rem;
+    }

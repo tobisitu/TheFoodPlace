@@ -29,3 +29,31 @@
 .navbar .nav-link a {
     text-align: center;
 }
+
+.navbar .nav-reservation a {
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    /*border: 1px solid #EABE7C;*/
+    border: 1px solid #000;
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+.navbar .nav-reservation a:link,
+.navbar .nav-reservation a:visited {
+    /*background-color: #EABE7C;*/
+    background-color: #000;
+    /* font-weight: 700; */
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .nav-reservation a:hover,
+.navbar .nav-reservation a:active {
+    /* background-color: #000;*/
+    background-color: #EABE7C;
+    border: 1px solid #EABE7C;
+    color: #fff;
+    /* font-weight: 700; */
+    text-decoration: none;
+}
