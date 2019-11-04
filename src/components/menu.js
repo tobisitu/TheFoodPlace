@@ -4,6 +4,17 @@ import Navigation from './navigation';
 import Footer from './footer';
 import {CardDeck, Card} from 'react-bootstrap/';
 import food1 from '../images/food1.jpg';
+import alcohol1 from '../images/alcohol1.jpg';
+import alcohol2 from '../images/alcohol2.jpg';
+import alcohol3 from '../images/alcohol3.jpg';
+import lunch1 from '../images/lunch1.jpg';
+import lunch2 from '../images/lunch2.jpg';
+import lunch3 from '../images/lunch3.jpg';
+import lunch4 from '../images/lunch4.jpg';
+import dinner1 from '../images/dinner1.jpg';
+import dinner2 from '../images/dinner2.jpg';
+import dinner3 from '../images/dinner3.jpg';
+import dinner4 from '../images/dinner4.jpg';
 
 function Menu() {
   return (
@@ -90,13 +101,10 @@ function Menu() {
                 <div className="row mt-3">
                       <CardDeck>
                         <Card>
-                          <Card.Img variant="top" src={food1} />
+                          <Card.Img variant="top" src={lunch1} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                              This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This content is a little bit longer.
-                            </Card.Text>
+                            <Card.Title>Spaghetti Carbonara</Card.Title>
+                            
                             <div className="restriction-info row mt-5 mb-3">
                               <div className="col-3">
                                 <small className="restriction-active">L</small>
@@ -114,13 +122,9 @@ function Menu() {
                           </Card.Body>
                         </Card>
                         <Card>
-                          <Card.Img variant="top" src={food1} />
+                          <Card.Img variant="top" src={lunch2} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This content is a little bit longer.
-                            </Card.Text>
+                            <Card.Title>Club Special Grilled Cheese</Card.Title>
                             <div className="restriction-info row mt-5 mb-3">
                               <div className="col-3">
                                 <small className="restriction-inactive">L</small>
@@ -139,16 +143,12 @@ function Menu() {
                         </Card>
                       </CardDeck>
                   </div>
-                  <div className="row mt-3 mb-3">
+                  <div className="row mt-5 mb-3">
                       <CardDeck>
                         <Card>
-                          <Card.Img variant="top" src={food1} />
+                          <Card.Img variant="top" src={lunch3} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This content is a little bit longer.
-                            </Card.Text>
+                            <Card.Title>Chicken Salad Surprise</Card.Title>
                             <div className="restriction-info row mt-5 mb-3">
                               <div className="col-3">
                                 <small className="restriction-inactive">L</small>
@@ -166,13 +166,9 @@ function Menu() {
                           </Card.Body>
                         </Card>
                         <Card>
-                          <Card.Img variant="top" src={food1} />
+                          <Card.Img variant="top" src={lunch4} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This content is a little bit longer.
-                            </Card.Text>
+                            <Card.Title>Grilled Chicken Delight</Card.Title>
                             <div className="restriction-info row mt-5 mb-3">
                               <div className="col-3">
                                 <small className="restriction-active">L</small>
@@ -198,7 +194,7 @@ function Menu() {
               <section id="drinks-menu" className="pb-4 container">
               <h2 className="menu-section-title  mt-5">Drinks</h2>
                 <Card className="bg-dark text-white">
-                  <Card.Img src={food1} alt="Card image" />
+                  <Card.Img src={alcohol3} alt="Card image" />
                 </Card>
               {/* wines */}
                 <div className="row mt-5 mb-3">
@@ -206,50 +202,50 @@ function Menu() {
                         <h3 className="pb-3">Wines</h3>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Veuve Clicquot, Brut</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$56.80</p>
                             </div>
                           </div>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Moet & Chandon</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$53.55</p>
                             </div>
                           </div>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Rose Brut</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$33.35</p>
                             </div>
                           </div>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Brut Premier</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$44.90</p>
                             </div>
                           </div>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Pinot Grigio Blush</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$15.75</p>
                             </div>
                           </div>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Muscadet</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$15.95</p>
                             </div>
                           </div>
 
@@ -259,50 +255,50 @@ function Menu() {
                           <h3 className="pb-3">Cocktails</h3>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Martini</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$20.00</p>
                             </div>
                           </div>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Bloody Mary</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$24.00</p>
                             </div>
                           </div>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Margarita</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$20.00</p>
                             </div>
                           </div>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Mojito</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$18.70</p>
                             </div>
                           </div>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Daiquiri</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$21.00</p>
                             </div>
                           </div>
                           <div className="row drink-item pb-2">
                             <div className="col-5 drink-name">
-                              <p>Asbergo 2010</p>
+                              <p>Gin & Tonic</p>
                             </div>
                             <div className="col-7 drink-price">
-                              <p>$40.00</p>
+                              <p>$19.50</p>
                             </div>
                           </div>
                         </div>
@@ -316,13 +312,9 @@ function Menu() {
                 <div className="row mt-3">
                       <CardDeck>
                         <Card>
-                          <Card.Img variant="top" src={food1} />
+                          <Card.Img variant="top" src={dinner1} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                              This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This content is a little bit longer.
-                            </Card.Text>
+                            <Card.Title>Steak Dinner</Card.Title>
                             <div className="restriction-info row mt-5 mb-3">
                               <div className="col-3">
                                 <small className="restriction-active">L</small>
@@ -340,13 +332,9 @@ function Menu() {
                           </Card.Body>
                         </Card>
                         <Card>
-                          <Card.Img variant="top" src={food1} />
+                          <Card.Img variant="top" src={dinner2} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This content is a little bit longer.
-                            </Card.Text>
+                            <Card.Title>Shrimp Surprise</Card.Title>
                             <div className="restriction-info row mt-5 mb-3">
                               <div className="col-3">
                                 <small className="restriction-inactive">L</small>
@@ -365,16 +353,12 @@ function Menu() {
                         </Card>
                       </CardDeck>
                   </div>
-                  <div className="row mt-3 mb-3">
+                  <div className="row mt-5 mb-3">
                       <CardDeck>
                         <Card>
-                          <Card.Img variant="top" src={food1} />
+                          <Card.Img variant="top" src={dinner3} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This content is a little bit longer.
-                            </Card.Text>
+                            <Card.Title>Customizable Pizza</Card.Title>
                             <div className="restriction-info row mt-5 mb-3">
                               <div className="col-3">
                                 <small className="restriction-inactive">L</small>
@@ -392,13 +376,9 @@ function Menu() {
                           </Card.Body>
                         </Card>
                         <Card>
-                          <Card.Img variant="top" src={food1} />
+                          <Card.Img variant="top" src={dinner4} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This content is a little bit longer.
-                            </Card.Text>
+                            <Card.Title>Chef's Veggie Steak</Card.Title>
                             <div className="restriction-info row mt-5 mb-3">
                               <div className="col-3">
                                 <small className="restriction-active">L</small>

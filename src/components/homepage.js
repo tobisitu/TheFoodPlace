@@ -24,18 +24,18 @@ function Homepage() {
                  
               </section> 
             </div>
-            <div className="row">
-              <section className="About-text col-12 mt-5" id="reservation">
-                <Reservation />
-              </section>
-                
-            </div>
           </div>
 
           <section className="col-lg-6 mt-5 About-img">
           <img src={restaurant1} className="Restaurant-image" alt="Restaurant seating arrangement" />
           </section>
         </div>  
+        <div className="row">
+              <section className="About-text col-12 mt-5" id="reservation">
+                <Reservation />
+              </section>
+                
+            </div>
       </div>
 
 

@@ -3,6 +3,11 @@ import styles from '../styles/about.css';
 import Navigation from './navigation';
 import Footer from './footer';
 import food1 from '../images/food1.jpg';
+import restaurant2 from '../images/restaurant2.jpg';
+// import restaurant3 from '../images/restaurant3.jpg';
+import restaurant4 from '../images/restaurant4.jpg';
+import restaurant5 from '../images/restaurant5.jpg';
+
 
 
 function About() {
@@ -28,10 +33,10 @@ function About() {
             <div className="col-12 col-lg-6 about-text mt-4 mb-5">
               <div className="row mt-5">
                 <div className="col-6">
-                  <img className="image-about" src={food1} alt="About the FoodPlace"/>
+                  <img className="image-about" src={restaurant5} alt="About the FoodPlace"/>
                 </div>
                 <div className="col-6">
-                  <img className="image-about" src={food1} alt="About the FoodPlace"/>
+                  <img className="image-about" src={restaurant4} alt="About the FoodPlace"/>
                 </div>
               </div>
               <div className="row mt-4">
@@ -39,7 +44,7 @@ function About() {
                   <img className="image-about" src={food1} alt="About the FoodPlace"/>
                 </div>
                 <div className="col-6">
-                  <img className="image-about" src={food1} alt="About the FoodPlace"/>
+                  <img className="image-about" src={restaurant2} alt="About the FoodPlace"/>
                 </div>
               </div>
             </div>
