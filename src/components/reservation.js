@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import styles from '../styles/reservation.css';
 import Button from 'react-bootstrap/Button';
 import {Form, InputGroup, Col} from 'react-bootstrap';
+import useForm from './reservation-validation';
 
 function Reservation() {
      // Declare new state variable
     const [showReservation, setStart] = useState(false);
     const [validated, setValidated] = useState(false);
+    const [values, setValues] = useState({});
   
     const handleSubmit = event => {
       const form = event.currentTarget;
@@ -17,6 +19,11 @@ function Reservation() {
   
       setValidated(true);
     };
+    const handleChange = (event) => {
+        event.persist();
+        setValues(values => ({ ...values, [event.target.name]: event.target.value }));
+      };
+
   
     return (
       <div>
@@ -36,7 +43,7 @@ function Reservation() {
                         required
                         type="text"
                         placeholder="Jane"
-                        // defaultValue="Jane"
+                        
                         />
                         {/* <Form.Control.Feedback>Looks good!</Form.Control.Feedback> */}
                         <Form.Control.Feedback type="invalid">
@@ -49,6 +56,7 @@ function Reservation() {
                         required
                         type="text"
                         placeholder="Doe"
+                        onChange={handleChange}
                         // defaultValue="Doe"
                         />
                         {/* <Form.Control.Feedback>Looks good!</Form.Control.Feedback> */}
@@ -65,6 +73,7 @@ function Reservation() {
                         required
                         type="text"
                         placeholder="Janedoe@email.com"
+                        onChange={handleChange}
                         // defaultValue="Janedoe@email.com"
                         />
                         {/* <Form.Control.Feedback>Looks good!</Form.Control.Feedback> */}
@@ -156,15 +165,15 @@ function Reservation() {
                 </Form.Row>
                 <Button type="submit" onClick={handleSubmit} className="mt-3 submit mb-4">Submit form</Button>
                 <div className="attention">
-                    <small >If your request has been approved, you will get an email confirmation from us!</small>
+                    <small >If your request has been approved, you will get an email from us!</small>
                 </div>
             </Form>
           </div>}
-          {validated &&
+          {/* {validated &&
             <div className="success">
                 <p>Request received. Expect an email from us!</p>
             </div>
-          }
+          } */}
       </div>
     );
   }
