@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styles from '../styles/reservation.css';
 import Button from 'react-bootstrap/Button';
 import {Form, InputGroup, Col} from 'react-bootstrap';
-import useForm from './reservation-validation';
 
 function Reservation() {
      // Declare new state variable
