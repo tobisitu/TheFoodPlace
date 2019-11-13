@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/the-foodplace/static/css/main.1c337c34.chunk.css",
-    "main.js": "/the-foodplace/static/js/main.ec5c221a.chunk.js",
-    "main.js.map": "/the-foodplace/static/js/main.ec5c221a.chunk.js.map",
+    "main.css": "/the-foodplace/static/css/main.c0955080.chunk.css",
+    "main.js": "/the-foodplace/static/js/main.e6b9c4ed.chunk.js",
+    "main.js.map": "/the-foodplace/static/js/main.e6b9c4ed.chunk.js.map",
     "runtime-main.js": "/the-foodplace/static/js/runtime-main.d9646abc.js",
     "runtime-main.js.map": "/the-foodplace/static/js/runtime-main.d9646abc.js.map",
     "static/css/2.0624914a.chunk.css": "/the-foodplace/static/css/2.0624914a.chunk.css",
-    "static/js/2.af33af99.chunk.js": "/the-foodplace/static/js/2.af33af99.chunk.js",
-    "static/js/2.af33af99.chunk.js.map": "/the-foodplace/static/js/2.af33af99.chunk.js.map",
+    "static/js/2.0b68d3e5.chunk.js": "/the-foodplace/static/js/2.0b68d3e5.chunk.js",
+    "static/js/2.0b68d3e5.chunk.js.map": "/the-foodplace/static/js/2.0b68d3e5.chunk.js.map",
     "index.html": "/the-foodplace/index.html",
-    "precache-manifest.3019883fe081408706d074a3ec755068.js": "/the-foodplace/precache-manifest.3019883fe081408706d074a3ec755068.js",
+    "precache-manifest.31d1fc97aef3a63bd5cf919d0159c4d3.js": "/the-foodplace/precache-manifest.31d1fc97aef3a63bd5cf919d0159c4d3.js",
     "service-worker.js": "/the-foodplace/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/the-foodplace/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.1c337c34.chunk.css.map": "/the-foodplace/static/css/main.1c337c34.chunk.css.map",
+    "static/css/main.c0955080.chunk.css.map": "/the-foodplace/static/css/main.c0955080.chunk.css.map",
     "static/media/alcohol1.jpg": "/the-foodplace/static/media/alcohol1.9d2c7ce2.jpg",
     "static/media/alcohol2.jpg": "/the-foodplace/static/media/alcohol2.7aca7680.jpg",
     "static/media/alcohol3.jpg": "/the-foodplace/static/media/alcohol3.fa14d444.jpg",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.d9646abc.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.af33af99.chunk.js",
-    "static/css/main.1c337c34.chunk.css",
-    "static/js/main.ec5c221a.chunk.js"
+    "static/js/2.0b68d3e5.chunk.js",
+    "static/css/main.c0955080.chunk.css",
+    "static/js/main.e6b9c4ed.chunk.js"
   ]
 }
